@@ -1,0 +1,52 @@
+@media only screen and (max-width: 768px) {
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .intro-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-info {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .intro-profile{
+        display: none;
+    }
+
+    .info-links {
+        justify-content: center;
+    }
+
+    .about-section {
+        padding-bottom: 100px; /* Adjust as needed */
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-profile {
+        display: none;
+    }
+
+    .about-info {
+        text-align: center;
+    }
+
+    #dev-info {
+        width: 100%;
+        padding: 10px;
+    }
+}

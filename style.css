@@ -3,20 +3,36 @@
     padding: 0px;
 }
 
-.navbar{
-    background-color: rgb(255, 250, 250);
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 100;
     display: flex;
     justify-content: center;
-    padding-top: 25px;
-    padding-bottom: 20px;
-    box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.3);
-}
+  }
+
+  .navbar a {
+    display: inline-block;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    transition: color 0.3s;
+  }
+  .navbar a:hover {
+    color: #800080; /* Purple color on hover */
+  }
 
   
 .item{
     list-style: none;
     float:inline-start;
     font-weight: bold;
+    cursor: pointer;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin-left: 35px;
@@ -27,10 +43,10 @@
 }
 
 /*Intro section starts here*/
-.intro{
+.intro-section{
     display: flex;
     justify-content: center;
-    column-gap: 50px;
+    column-gap: 70px;
     padding-top: 100px;
     padding-bottom: 170px;
   
@@ -57,22 +73,106 @@
     text-align: center;
     font-weight: bold;
     cursor: pointer;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 30px;
     box-shadow: 2px 2px 5px rgba(41, 70, 199, 0.2);
 }
 #about-btn:hover{
-    box-shadow: 4px 4px 8px rgba(255, 16, 16, 0.371);
-    background-color: rgb(131, 79, 149);
+    box-shadow: 4px 4px 4px rgba(255, 16, 16, 0.371);
+    background-color: rgb(58, 33, 67);
 }
-
+.info-links{
+    margin-top: 35px;
+    display: flex;
+    column-gap: 15px;
+}
+.links{
+    padding: 12px;
+    font-size: 22px;
+    border: none;
+    border-radius: 50px;
+    transition: 0.1s ease-in-out;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.links:hover{
+    background-color: rgb(100, 103, 159);
+    transform: scale(1.1);
+    
+}
 .intro-profile{
     border-radius: 200px;
     background-color: orange;
-    transition: transform 0.5s;
+    transition: transform 0.5s ease-in-out;
     transform-origin: center;
 }
 .intro-profile:hover{
     transform: perspective(800px) rotateY(5deg) rotateX(5deg);
     box-shadow:4px 4px 2px 4px rgba(119, 56, 56, 0.371);
+    transform: scale(1.1);
 }
+
+/* About Section starts here*/
+
+.about-section{
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+.about-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight:1000;
+    color: rgb(114, 36, 159);
+}
+.about{
+    display: flex;
+    justify-content: center;
+    column-gap: 130px;
+    padding-top: 60px;
+}
+.about-profile{
+    width: 290px;
+    height: 350px;
+    border-radius: 25px;
+    transition: transform 0.1s ease-in-out;
+    filter: grayscale(100%);
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.1); 
+}
+.about-profile:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    
+}
+
+.about-info{
+    display: inline-block;
+}
+#dev-info{
+    width: 600px; 
+    padding-top: 17px;
+    font-weight: bold; 
+    font-family:'Trebuchet MS';
+}
+
+#resume-btn{
+    color: #ffffff;
+    background-color: rgb(107, 33, 176);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 40px 10px 40px;
+}
+
+#resume-btn:hover{
+    box-shadow: 4px 4px 4px rgba(255, 16, 16, 0.371);
+    background-color: rgb(66, 19, 82);
+}
+
