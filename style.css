@@ -272,3 +272,83 @@
     color: white;
     font-family:'Trebuchet MS';
 }
+
+/*Education section starts here*/
+
+.education-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    padding-top:40px;
+    padding-bottom: 60px;
+    background-color: #E5ECFB;
+}
+.education-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight:1000;
+    color: rgb(114, 36, 159);
+}
+
+.education-outer-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.education-outer-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+}
+
+.education-inner-grid{
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    border: none;
+    border-radius: 10px;
+    background-color: #FCFCFC;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+.education-inner-grid:hover{
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+.education-inner-grid.animate-float{
+    animation: floating 0.5s ease-in 1; 
+}
+.edu-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+    padding:20px;
+}
+.edu-college-img{
+    height: 160px;
+    width: 270px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.edu-name{
+    font-weight: bold;
+    font-size: 24px;
+    font-family:'Trebuchet MS';
+    color: #012970;
+}
+.edu-college{
+    font-size: 14px;
+    font-weight: bold;
+    font-family:'Trebuchet MS';
+    color:#838383;
+}
+.edu-year{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Trebuchet MS';
+    color: #226D00;
+}
