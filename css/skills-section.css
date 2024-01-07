@@ -64,3 +64,14 @@
     color: white;
     font-family: 'Trebuchet MS';
 }
+
+/*Responsive CSS*/
+
+@media (max-width:768px) {
+    .skills-heading{
+        font-size: 28px;
+    }
+    .skills-outer{
+        grid-template-columns: 1fr 1fr;
+    }
+}

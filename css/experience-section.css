@@ -83,3 +83,27 @@
     font-family: 'Trebuchet MS';
     opacity: calc(0.5);
 }
+
+@media (max-width:768px){
+    .experience-heading{
+        font-size: 28px;
+    }
+    .vertical-line-flex{
+        justify-content:space-around;
+    }
+    .icon-container-flex{
+        row-gap: 5px;
+    }
+    .experience-info-grid{
+        grid-template-columns: 280px;
+    }
+    .experience-company-name{
+        font-size: 18px;
+    }
+    .experience-name{
+        font-size: 14px;
+    }
+    .experience-duration{
+        font-size: 12px;
+    }
+}

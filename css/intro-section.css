@@ -1,5 +1,5 @@
 /*Intro section starts here*/
-.intro-section {
+.intro-section-flex {
     display: flex;
     justify-content: center;
     column-gap: 70px;
@@ -93,4 +93,37 @@
 
 .intro-profile.animate-float {
     animation: floating 0.8s ease-in 1;
+}
+
+
+
+/*Responsive CSS*/
+
+@media (max-width:768px){
+    .intro-section-flex{
+        flex-direction: column-reverse;
+        padding-top: 100px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+        padding-left: 10px;
+    }
+    .intro-info{
+        margin-top: 10px;
+    }
+    .intro-profile{
+        width: 70%;
+        height: 70%;
+    }
+    .info{
+        font-size: 28px;
+    }
+    #about-btn{
+        padding: 12px;
+        font-size: 13px;
+    }
+    .links {
+        padding: 10px;
+        font-size: 18px;
+    }
 }

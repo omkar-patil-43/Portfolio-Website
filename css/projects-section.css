@@ -92,3 +92,29 @@
     text-decoration: none;
     color: #ffffff;
 }
+
+@media (max-width:768px){
+    .projects-heading {
+        font-size: 28px;
+    }
+    
+    .projects-outer-grid {
+        grid-template-columns: 300px;
+        row-gap: 45px;
+        padding-right: 20px;
+    }
+    
+    .project-img {
+        width:298px;
+        height: 100%;
+    }
+    .project-name{
+        font-size: 16px;
+    }
+    .inner-button{
+        font-size: 12px;
+    }
+    .projects-inner-grid:hover {
+        transform:none;
+    }
+}

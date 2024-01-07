@@ -85,3 +85,31 @@
     font-family: 'Trebuchet MS';
     color: #226D00;
 }
+
+/*Responsive CSS*/
+@media (max-width:768px) {
+    .education-heading{
+        font-size: 28px;
+    }
+   
+    .education-outer-grid{
+        row-gap: 50px;
+    }
+    .education-inner-grid {
+        grid-template-columns: 320px;
+    }
+
+    .edu-college-img {
+        width: 100%;
+        height: 100%;
+    }
+    .edu-name{
+        font-size: 18px;
+    }
+    .edu-info{
+        font-size: 14px;
+    }
+    .edu-year{
+        font-size: 12px;
+    }
+}

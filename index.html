@@ -19,16 +19,26 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <a href="#intro-section">Home</a>
-        <a href="#about-section">About</a>
-        <a href="#skills-section">Skills</a>
-        <a href="#education-section">Education</a>
-        <a href="#projects-section">Work</a>
-        <a href="#experience-section">Experience</a>
-        <a href="#footer-section">Contact</a>
-    </div>
-    <section class="intro-section" id="intro-section">
+    <nav class="navbar">
+        <div class="logo">Omkar</div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="menu">
+            <li><a href="#intro-section">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#skills-section">Skills</a></li>
+            <li><a href="#education-section">Education</a></li>
+            <li><a href="#projects-section">Work</a></li>
+            <li><a href="#experience-section">Experience</a></li>
+            <li><a href="#footer-section">Contact</a></li>
+        </ul>
+    </nav>
+    
+    
+    <section class="intro-section-flex" id="intro-section">
         <div class="intro-info">
             <div class="info">Hi There,</div>
             <div class="info">I'm Omkar <label style="color: orange;">Patil</label></div>
@@ -44,14 +54,14 @@
                 <a href=""><i class="bx bxl-telegram social__icon links"></i></a>
             </div>
         </div>
-        <img class="intro-profile animate" src="pic.png"">
+        <img class="intro-profile animate" src="thumbnails/pic.png"">
         
     </section>
 
     <section class=" about-section" id="about-section">
         <div class="about-heading">About Me</div>
-        <div class="about">
-            <img class="about-profile" src="Omkarimg-updated.jpg" alt="">
+        <div class="about-flex">
+            <img class="about-profile" src="thumbnails/Omkarimg-updated.jpg" alt="">
             <div class="about-info animate">
                 <div style="font-size: 25px; font-weight: 1000; font-family:Verdana, Geneva, Tahoma, sans-serif;">I'm
                     Omkar</div>
@@ -159,7 +169,7 @@
         <div class="education-outer-flex">
             <div class="education-outer-grid">
                 <div class="education-inner-grid animate">
-                    <img class="edu-college-img" src="jspm.jpg" alt="">
+                    <img class="edu-college-img" src="thumbnails/jspm.jpg" alt="">
                     <div class="edu-info">
                         <div class="edu-name">Bachelor of Enginnering in Computer Enginnering</div>
                         <div class="edu-college">JSPM Jaywantrao Sawant College of Engineering Hadapsar, Pune</div>
@@ -167,7 +177,7 @@
                     </div>
                 </div>
                 <div class="education-inner-grid animate">
-                    <img class="edu-college-img" src="gpkp.jpg" alt="">
+                    <img class="edu-college-img" src="thumbnails/gpkp.jpg" alt="">
                     <div class="edu-info">
                         <div class="edu-name">Diploma in Information Technology</div>
                         <div class="edu-college">Government Polytechnic, Kolhapur</div>
@@ -175,7 +185,7 @@
                     </div>
                 </div>
                 <div class="education-inner-grid animate">
-                    <img class="edu-college-img" src="zp.png" alt="">
+                    <img class="edu-college-img" src="thumbnails/zp.png" alt="">
                     <div class="edu-info">
                         <div class="edu-name">SSC</div>
                         <div class="edu-college">Honerable D.M.P.V Highschool Tisangi, Kolhapur</div>
@@ -186,11 +196,10 @@
         </div>
     </section>
     <section class="projects-section" id="projects-section">
-        <div class="projects-heading">Projects Developed</div>
+        <div class="projects-heading">Projects</div>
         <div class="projects-outer-grid">
-
             <div class="projects-inner-grid animate">
-                <img class="project-img" src="thumbnails/drone.png" alt="">
+                <img class="project-img" src="thumbnails/od2.png" alt="">
                 <div class="project-name">Autonomous Drone</div>
                 <div class="project-buttons">
                     <button class="inner-button">View</button>
@@ -423,14 +432,13 @@
 
     <section class="footer-section" id="footer-section">
         <div class="footer-grid">
-            <div style="font-family: Trebuchet MS; font-size: 24px;">Omkar's Portfolio</div>
-            <div style="font-family: Trebuchet MS; font-size: 16px; color: #C6B9B2;">Thank you for visiting my personal
-                portfolio website. Connect with me over socials</div>
-            <div style="font-family: Trebuchet MS; font-size: 16px; color: #C6B9B2">Keep Rising 🚀. Connect with me over
+            <div class="sub-footer-heading" style="font-family: Trebuchet MS;">Omkar's Portfolio</div>
+            <div class="sub-footer-text" style="font-family: Trebuchet MS; color: #C6B9B2;">Thank you for visiting my personal portfolio website. Connect with me over socials</div>
+            <div class="sub-footer-text" style="font-family: Trebuchet MS;color: #C6B9B2">Keep Rising 🚀. Connect with me over
                 live chat!</div>
         </div>
         <div class="footer-grid">
-            <div style="font-family: Trebuchet MS; font-size: 24px;">Quick Links</div>
+            <div class="sub-footer-heading" style="font-family: Trebuchet MS;">Quick Links</div>
             <div class="links-flex">
                 <a href="#intro-section"><i class="bx bxs-chevron-right"></i> Home</a>
                 <a href="#about-section"><i class="bx bxs-chevron-right"></i> About</a>
@@ -442,7 +450,7 @@
             </div>
         </div>
         <div class="footer-grid">
-            <div style="font-family: Trebuchet MS; font-size: 24px;">Contact Info</div>
+            <div class="sub-footer-heading" style="font-family: Trebuchet MS;">Contact Info</div>
             <div class="contact-flex">
                 <div><i class="bx bxs-phone" style="color:#FFAE00"></i> +91 1234567890</div>
                 <div><i class="bx bxs-envelope" style="color:#FFAE00"></i> omkar832001@gmail.com</div>
@@ -467,14 +475,22 @@
 <script src="animation-scripts/three.min.js"></script>
 <script src="animation-scripts/vanta.birds.min.js"></script>
 <script>
+    function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    menu.classList.toggle('show');
+}
+
+</script>
+
+<script>
     // Function to initialize VANTA.BIRDS with responsive parameters
     function initVanta() {
         // Get the intro-section element
         const introSection = document.getElementById("intro-section");
 
         // Calculate the minHeight and minWidth based on the screen width
-        const minWidth = Math.min(window.innerWidth * 0.5, 180);
-        const minHeight = Math.min(window.innerHeight * 0.5, 380);
+        const minWidth = Math.min(window.innerWidth * 0.2, 180);
+        const minHeight = Math.min(window.innerHeight * 0.2, 380);
 
         // Initialize VANTA.BIRDS with responsive parameters
         VANTA.BIRDS({
