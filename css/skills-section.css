@@ -1,0 +1,66 @@
+/*Skills section starts here*/
+
+.skills-section {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: #800080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.skills-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+}
+
+.skills-outer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    padding: 20px;
+    background-color: #33026D;
+    border: none;
+    border-radius: 10px;
+}
+
+.skills-outer.animate-float {
+    animation: floating 0.5s ease-in 1;
+}
+
+.skills-inner-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    border: none;
+    padding: 18px 22px 18px 22px;
+    border-radius: 15px;
+    background-color: #05001F;
+}
+
+.skills-inner-block:hover {
+    transition: 0.5s;
+    background-color: #05000B;
+    box-shadow: 0 8px 16px rgba(5, 0, 11, 0.4);
+}
+
+.skill-icon {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Arial';
+}
+
+.skill-name {
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS';
+}

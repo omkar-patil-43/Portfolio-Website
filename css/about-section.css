@@ -1,0 +1,78 @@
+/* About Section starts here*/
+
+.about-section {
+    padding-top: 20px;
+    padding-bottom: 170px;
+}
+
+.about-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 1000;
+    color: rgb(114, 36, 159);
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    column-gap: 130px;
+    padding-top: 60px;
+}
+
+.about-profile {
+    width: 290px;
+    height: 350px;
+    border-radius: 25px;
+    transition: transform 0.1s ease-in-out;
+    filter: grayscale(100%);
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.1);
+    animation: floating 0.5s ease-in 1;
+}
+
+.about-profile:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+
+}
+
+
+.about-info {
+    display: inline-block;
+}
+
+.about-info.animate-float {
+    animation: floating 0.5s ease-in 1;
+}
+
+#dev-info {
+    width: 600px;
+    padding-top: 17px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+}
+
+#resume-btn {
+    color: #ffffff;
+    background-color: rgb(107, 33, 176);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 40px 10px 40px;
+}
+
+#resume-btn:hover {
+    box-shadow: 4px 4px 4px rgba(255, 16, 16, 0.371);
+    background-color: rgb(66, 19, 82);
+}
+
+.resume-anchor {
+    text-decoration: none;
+    color: white;
+}

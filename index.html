@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omkar Patil</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/intro-section.css">
+    <link rel="stylesheet" href="css/about-section.css">
+    <link rel="stylesheet" href="css/education-section.css">
+    <link rel="stylesheet" href="css/skills-section.css">
+    <link rel="stylesheet" href="css/projects-section.css">
+    <link rel="stylesheet" href="css/experience-section.css">
+    <link rel="stylesheet" href="css/footer-section.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
 </head>
+
 <body>
     <div class="navbar">
         <a href="#intro-section">Home</a>
         <a href="#about-section">About</a>
         <a href="#skills-section">Skills</a>
-        <a href="#">Education</a>
-        <a href="#">Work</a>
-        <a href="#">Contact</a>
-      </div>
+        <a href="#education-section">Education</a>
+        <a href="#projects-section">Work</a>
+        <a href="#experience-section">Experience</a>
+        <a href="#footer-section">Contact</a>
+    </div>
     <section class="intro-section" id="intro-section">
         <div class="intro-info">
             <div class="info">Hi There,</div>
             <div class="info">I'm Omkar <label style="color: orange;">Patil</label></div>
-            <div class="animate one-line-desc" style="font-size: 19px; font-weight: bold; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">I am Full Stack Web Developer</div>
+            <div class="animate one-line-desc"
+                style="font-size: 19px; font-weight: bold; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                I am Full Stack Web Developer</div>
             <input class="animate" id="about-btn" type="button" value="About me">
             <div class="info-links animate">
                 <a href=""><i class="bx bxl-linkedin-square social__icon links"></i></a>
@@ -35,19 +48,28 @@
         
     </section>
 
-    <section class="about-section" id="about-section">
+    <section class=" about-section" id="about-section">
         <div class="about-heading">About Me</div>
         <div class="about">
             <img class="about-profile" src="Omkarimg-updated.jpg" alt="">
             <div class="about-info animate">
-                <div style="font-size: 25px; font-weight: 1000; font-family:Verdana, Geneva, Tahoma, sans-serif;">I'm Omkar</div>
-                <div style="padding-top:10px; font-weight: bolder; font-family: 'Lucida Sans Unicode'">Full Stack Web Developer</div>
-                <div id="dev-info">I am a Full-Stack Web Developer based in Kolhapur, India. I am Computer Engineering undergraduate from SPPU. Very passionate about improving my coding skills & developing applications & websites. I build WebApps, MobileApps, DesktopApps using various Tech Stacks. Have experience working in field of Internet of Things. Working hard in smart way to be better version of myself.</div>
-                <div style="font-family: 'Trebuchet MS'; padding-top: 17px;"><label style="color: blueviolet;">Email:</label> omkar832001@gmail.com</div>
-                <div style="font-family: 'Trebuchet MS';padding-top: 17px; padding-bottom: 34px;"><label style="color: blueviolet;">Place:</label> Kolhapur, India - 416205</div>
-                <Button id="resume-btn"><a class="resume-anchor" target="_blank" href="https://drive.google.com/file/d/1x_KUjJbMrddi9G_AjnOqV9WhCb8wcm12/view?usp=sharing">Resume</a></Button>
+                <div style="font-size: 25px; font-weight: 1000; font-family:Verdana, Geneva, Tahoma, sans-serif;">I'm
+                    Omkar</div>
+                <div style="padding-top:10px; font-weight: bolder; font-family: 'Lucida Sans Unicode'">Full Stack Web
+                    Developer</div>
+                <div id="dev-info">I am a Full-Stack Web Developer based in Kolhapur, India. I am Computer Engineering
+                    undergraduate from SPPU. Very passionate about improving my coding skills & developing applications
+                    & websites. I build WebApps, MobileApps, DesktopApps using various Tech Stacks. Have experience
+                    working in field of Internet of Things. Working hard in smart way to be better version of myself.
+                </div>
+                <div style="font-family: 'Trebuchet MS'; padding-top: 17px;"><label
+                        style="color: blueviolet;">Email:</label> omkar832001@gmail.com</div>
+                <div style="font-family: 'Trebuchet MS';padding-top: 17px; padding-bottom: 34px;"><label
+                        style="color: blueviolet;">Place:</label> Kolhapur, India - 416205</div>
+                <Button id="resume-btn"><a class="resume-anchor" target="_blank"
+                        href="https://drive.google.com/file/d/1x_KUjJbMrddi9G_AjnOqV9WhCb8wcm12/view?usp=sharing">Resume</a></Button>
             </div>
-            
+
         </div>
     </section>
 
@@ -163,195 +185,350 @@
             </div>
         </div>
     </section>
-    <section class="projects-section">
+    <section class="projects-section" id="projects-section">
         <div class="projects-heading">Projects Developed</div>
-            <div class="projects-outer-grid">
+        <div class="projects-outer-grid">
 
-                <div class="projects-inner-grid animate">
-                    <img class="project-img" src="thumbnails/drone.png" alt="">
-                    <div class="project-name">Autonomous Drone</div>
-                    <div class="project-buttons">
-                                <button class="inner-button">View</button>
-                                <button class="inner-button"><a class="inner-anchor" target="_blank" href="https://github.com/21coolkarni/AI-ML-Drone">Code</a></button>
-                    </div>
+            <div class="projects-inner-grid animate">
+                <img class="project-img" src="thumbnails/drone.png" alt="">
+                <div class="project-name">Autonomous Drone</div>
+                <div class="project-buttons">
+                    <button class="inner-button">View</button>
+                    <button class="inner-button"><a class="inner-anchor" target="_blank"
+                            href="https://github.com/21coolkarni/AI-ML-Drone">Code</a></button>
                 </div>
-                <div class="projects-inner-grid animate">
-                    <img class="project-img" src="thumbnails/farmhelp.jpeg" alt="">
-                    <div class="project-name">FarmHelp Website</div>
-                    <div class="project-buttons">
-                                <button class="inner-button">View</button>
-                                <button class="inner-button"><a class="inner-anchor" target="_blank" href="https://github.com/omkar-patil-43/AttendanceSystem">Code</a></button>
-                    </div>
-                </div>
-                <div class="projects-inner-grid animate">
-                    <img class="project-img" src="thumbnails/traffic.png" alt="">
-                    <div class="project-name">Smart Traffic Management</div>
-                    <div class="project-buttons">
-                                <button class="inner-button">View</button>
-                                <button class="inner-button"><a class="inner-anchor" target="_blank" href="">Code</a></button>
-                    </div>
-                </div>
-
-
-                <div class="projects-inner-grid animate">
-                    <img class="project-img" src="thumbnails/checkbill.png" alt="">
-                    <div class="project-name">CheckBill Desktop App</div>
-                    <div class="project-buttons">
-                                <button class="inner-button">View</button>
-                                <button class="inner-button"><a class="inner-anchor" target="_blank" href="https://github.com/omkar-patil-43/checkbill-project">Code</a></button>
-                    </div>
-                </div>
-                
-                <div class="projects-inner-grid animate">
-                    <img class="project-img" src="thumbnails/hotel.png" alt="">
-                    <div class="project-name">Travel Management System</div>
-                    <div class="project-buttons">
-                                <button class="inner-button">View</button>
-                                <button class="inner-button"><a class="inner-anchor" target="_blank" href="https://github.com/omkar-patil-43/travel-and-tousrism-management-project">Code</a></button>
-                    </div>
-                </div>
-                <div class="projects-inner-grid animate">
-                    <img class="project-img" src="thumbnails/chat.jpeg" alt="">
-                    <div class="project-name">Chat Desktop App</div>
-                    <div class="project-buttons">
-                                <button class="inner-button">View</button>
-                                <button class="inner-button"><a class="inner-anchor" target="_blank" href="https://github.com/omkar-patil-43/Chat-Desktop-App">Code</a></button>
-                    </div>
-                </div>
-
-                <div class="projects-inner-grid animate">
-                    <img class="project-img" src="thumbnails/restaurant.png" alt="">
-                    <div class="project-name">Restaurant Website</div>
-                    <div class="project-buttons">
-                                <button class="inner-button">View</button>
-                                <button class="inner-button"><a class="inner-anchor" target="_blank" href="https://github.com/omkar-patil-43/ShahiDarbar-React-App">Code</a></button>
-                    </div>
-                </div>
-                <div class="projects-inner-grid animate">
-                    <img class="project-img" src="thumbnails/attendance.jpeg" alt="">
-                    <div class="project-name">Students Attendance with QR Code</div>
-                    <div class="project-buttons">
-                                <button class="inner-button">View</button>
-                                <button class="inner-button"><a class="inner-anchor" target="_blank" href="https://github.com/omkar-patil-43/AttendanceSystem">Code</a></button>
-                    </div>
-                </div>
-               
-                <div class="projects-inner-grid animate">
-                    <img class="project-img" src="thumbnails/portfolio.png" alt="">
-                    <div class="project-name">Portfolio Website</div>
-                    <div class="project-buttons">
-                                <button class="inner-button">View</button>
-                                <button class="inner-button"><a class="inner-anchor" target="_blank" href="https://github.com/omkar-patil-43/Myportfolio">Code</a></button>
-                    </div>
-                </div>
-
-
-                <div class="projects-inner-grid animate">
-                    <img class="project-img" src="thumbnails/resume.png" alt="">
-                    <div class="project-name">Resume-Maker Website</div>
-                    <div class="project-buttons">
-                                <button class="inner-button">View</button>
-                                <button class="inner-button"><a class="inner-anchor" target="_blank" href="https://github.com/omkar-patil-43/resumemaker">Code</a></button>
-                    </div>
-                </div>
-                <div class="projects-inner-grid animate">
-                    <img class="project-img" src="thumbnails/company1.png" alt="">
-                    <div class="project-name">Tech Company Website</div>
-                    <div class="project-buttons">
-                                <button class="inner-button">View</button>
-                                <button class="inner-button"><a class="inner-anchor" target="_blank" href="">Code</a></button>
-                    </div>
-                </div>
-                <div class="projects-inner-grid animate">
-                    <img class="project-img" src="thumbnails/notepad.png" alt="">
-                    <div class="project-name">Smart Notepad</div>
-                    <div class="project-buttons">
-                                <button class="inner-button">View</button>
-                                <button class="inner-button"><a class="inner-anchor" target="_blank" href="https://github.com/omkar-patil-43/Notepad-Desktop-App">Code</a></button>
-                    </div>
-                </div>
-                
-
-                
-                
-                <div class="projects-inner-grid animate">
-                    <img class="project-img" src="thumbnails/browser.png" alt="">
-                    <div class="project-name">WebBrowser Desktop App</div>
-                    <div class="project-buttons">
-                                <button class="inner-button">View</button>
-                                <button class="inner-button"><a class="inner-anchor" target="_blank" href="https://github.com/omkar-patil-43/Web-Browser-Desktop-App">Code</a></button>
-                    </div>
-                </div>
-               
-                
-
             </div>
+            <div class="projects-inner-grid animate">
+                <img class="project-img" src="thumbnails/farmhelp.jpeg" alt="">
+                <div class="project-name">FarmHelp Website</div>
+                <div class="project-buttons">
+                    <button class="inner-button">View</button>
+                    <button class="inner-button"><a class="inner-anchor" target="_blank"
+                            href="https://github.com/omkar-patil-43/AttendanceSystem">Code</a></button>
+                </div>
+            </div>
+            <div class="projects-inner-grid animate">
+                <img class="project-img" src="thumbnails/traffic.png" alt="">
+                <div class="project-name">Smart Traffic Management</div>
+                <div class="project-buttons">
+                    <button class="inner-button">View</button>
+                    <button class="inner-button"><a class="inner-anchor" target="_blank" href="">Code</a></button>
+                </div>
+            </div>
+
+
+            <div class="projects-inner-grid animate">
+                <img class="project-img" src="thumbnails/checkbill.png" alt="">
+                <div class="project-name">CheckBill Desktop App</div>
+                <div class="project-buttons">
+                    <button class="inner-button">View</button>
+                    <button class="inner-button"><a class="inner-anchor" target="_blank"
+                            href="https://github.com/omkar-patil-43/checkbill-project">Code</a></button>
+                </div>
+            </div>
+
+            <div class="projects-inner-grid animate">
+                <img class="project-img" src="thumbnails/hotel.png" alt="">
+                <div class="project-name">Travel Management System</div>
+                <div class="project-buttons">
+                    <button class="inner-button">View</button>
+                    <button class="inner-button"><a class="inner-anchor" target="_blank"
+                            href="https://github.com/omkar-patil-43/travel-and-tousrism-management-project">Code</a></button>
+                </div>
+            </div>
+            <div class="projects-inner-grid animate">
+                <img class="project-img" src="thumbnails/chat.jpeg" alt="">
+                <div class="project-name">Chat Desktop App</div>
+                <div class="project-buttons">
+                    <button class="inner-button">View</button>
+                    <button class="inner-button"><a class="inner-anchor" target="_blank"
+                            href="https://github.com/omkar-patil-43/Chat-Desktop-App">Code</a></button>
+                </div>
+            </div>
+
+            <div class="projects-inner-grid animate">
+                <img class="project-img" src="thumbnails/restaurant.png" alt="">
+                <div class="project-name">Restaurant Website</div>
+                <div class="project-buttons">
+                    <button class="inner-button">View</button>
+                    <button class="inner-button"><a class="inner-anchor" target="_blank"
+                            href="https://github.com/omkar-patil-43/ShahiDarbar-React-App">Code</a></button>
+                </div>
+            </div>
+            <div class="projects-inner-grid animate">
+                <img class="project-img" src="thumbnails/attendance.jpeg" alt="">
+                <div class="project-name">Students Attendance with QR Code</div>
+                <div class="project-buttons">
+                    <button class="inner-button">View</button>
+                    <button class="inner-button"><a class="inner-anchor" target="_blank"
+                            href="https://github.com/omkar-patil-43/AttendanceSystem">Code</a></button>
+                </div>
+            </div>
+
+            <div class="projects-inner-grid animate">
+                <img class="project-img" src="thumbnails/portfolio.png" alt="">
+                <div class="project-name">Portfolio Website</div>
+                <div class="project-buttons">
+                    <button class="inner-button">View</button>
+                    <button class="inner-button"><a class="inner-anchor" target="_blank"
+                            href="https://github.com/omkar-patil-43/Myportfolio">Code</a></button>
+                </div>
+            </div>
+
+
+            <div class="projects-inner-grid animate">
+                <img class="project-img" src="thumbnails/resume.png" alt="">
+                <div class="project-name">Resume-Maker Website</div>
+                <div class="project-buttons">
+                    <button class="inner-button">View</button>
+                    <button class="inner-button"><a class="inner-anchor" target="_blank"
+                            href="https://github.com/omkar-patil-43/resumemaker">Code</a></button>
+                </div>
+            </div>
+            <div class="projects-inner-grid animate">
+                <img class="project-img" src="thumbnails/company1.png" alt="">
+                <div class="project-name">Tech Company Website</div>
+                <div class="project-buttons">
+                    <button class="inner-button">View</button>
+                    <button class="inner-button"><a class="inner-anchor" target="_blank" href="">Code</a></button>
+                </div>
+            </div>
+            <div class="projects-inner-grid animate">
+                <img class="project-img" src="thumbnails/notepad.png" alt="">
+                <div class="project-name">Smart Notepad</div>
+                <div class="project-buttons">
+                    <button class="inner-button">View</button>
+                    <button class="inner-button"><a class="inner-anchor" target="_blank"
+                            href="https://github.com/omkar-patil-43/Notepad-Desktop-App">Code</a></button>
+                </div>
+            </div>
+
+
+
+
+            <div class="projects-inner-grid animate">
+                <img class="project-img" src="thumbnails/browser.png" alt="">
+                <div class="project-name">WebBrowser Desktop App</div>
+                <div class="project-buttons">
+                    <button class="inner-button">View</button>
+                    <button class="inner-button"><a class="inner-anchor" target="_blank"
+                            href="https://github.com/omkar-patil-43/Web-Browser-Desktop-App">Code</a></button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="experience-section" id="experience-section">
+        <div class="experience-heading">
+            Experience
+        </div>
+        <div class="vertical-line-flex">
+            <div class="icon-container-flex">
+                <i class="bx bx-code-block icon actual-icon animate"></i>
+                <div class="experience-info-grid animate">
+                    <div class="experience-company-name">
+                        Vodafone Intelligent Solutions
+                    </div>
+                    <div class="experience-name">
+                        Graduate Engineer Trainee
+                    </div>
+                    <div class="experience-duration">
+                        Aug 2023 - Present
+                    </div>
+                </div>
+            </div>
+
+            <div class="icon-container-flex">
+                <i class="bx bx-code-block icon actual-icon animate"></i>
+                <div class="experience-info-grid animate">
+                    <div class="experience-company-name">
+                        Edunet Foundation
+                    </div>
+                    <div class="experience-name">
+                        Cyber Security Intern
+                    </div>
+                    <div class="experience-duration">
+                        Dec 2022 - Feb 2023
+                    </div>
+                </div>
+            </div>
+
+            <div class="icon-container-flex">
+                <i class="bx bx-code-block icon actual-icon animate"></i>
+                <div class="experience-info-grid animate">
+                    <div class="experience-company-name">
+                        Coffeee.io
+                    </div>
+                    <div class="experience-name">
+                        Full Stack Developer Intern
+                    </div>
+                    <div class="experience-duration">
+                        Oct 2022 - Nov 2022
+                    </div>
+                </div>
+            </div>
+
+            <div class="icon-container-flex">
+                <i class="bx bx-code-block icon actual-icon animate"></i>
+                <div class="experience-info-grid animate">
+                    <div class="experience-company-name">
+                        LetsGrowMore
+                    </div>
+                    <div class="experience-name">
+                        Front End Developer Intern
+                    </div>
+                    <div class="experience-duration">
+                        Feb 2022 - Mar 2022
+                    </div>
+                </div>
+            </div>
+
+            <div class="icon-container-flex">
+                <i class="bx bx-code-block icon actual-icon animate"></i>
+                <div class="experience-info-grid animate">
+                    <div class="experience-company-name">
+                        Comtranse Technology
+                    </div>
+                    <div class="experience-name">
+                        Full Stack Developer Intern
+                    </div>
+                    <div class="experience-duration">
+                        Apr 2021 - Jul 2021
+                    </div>
+                </div>
+            </div>
+
+            <div class="icon-container-flex">
+                <i class="bx bx-code-block icon actual-icon animate"></i>
+                <div class="experience-info-grid animate">
+                    <div class="experience-company-name">
+                        Digital Microsys Technologies
+                    </div>
+                    <div class="experience-name">
+                        Frontend Developer Intern
+                    </div>
+                    <div class="experience-duration">
+                        May 2018 - Jul 2018
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="footer-section" id="footer-section">
+        <div class="footer-grid">
+            <div style="font-family: Trebuchet MS; font-size: 24px;">Omkar's Portfolio</div>
+            <div style="font-family: Trebuchet MS; font-size: 16px; color: #C6B9B2;">Thank you for visiting my personal
+                portfolio website. Connect with me over socials</div>
+            <div style="font-family: Trebuchet MS; font-size: 16px; color: #C6B9B2">Keep Rising 🚀. Connect with me over
+                live chat!</div>
+        </div>
+        <div class="footer-grid">
+            <div style="font-family: Trebuchet MS; font-size: 24px;">Quick Links</div>
+            <div class="links-flex">
+                <a href="#intro-section"><i class="bx bxs-chevron-right"></i> Home</a>
+                <a href="#about-section"><i class="bx bxs-chevron-right"></i> About</a>
+                <a href="#skills-section"><i class="bx bxs-chevron-right"></i> Skills</a>
+                <a href="#education-section"><i class="bx bxs-chevron-right"></i> Education</a>
+                <a href="#projects-section"><i class="bx bxs-chevron-right"></i> Work</a>
+                <a href="#experience-section"><i class="bx bxs-chevron-right"></i> Experience</a>
+                <a href="#footer-section"><i class="bx bxs-chevron-right"></i> Contact</a>
+            </div>
+        </div>
+        <div class="footer-grid">
+            <div style="font-family: Trebuchet MS; font-size: 24px;">Contact Info</div>
+            <div class="contact-flex">
+                <div><i class="bx bxs-phone" style="color:#FFAE00"></i> +91 1234567890</div>
+                <div><i class="bx bxs-envelope" style="color:#FFAE00"></i> omkar832001@gmail.com</div>
+                <div><i class="bx bxs-map" style="color:#FFAE00"></i> Kolhapur, India-416205</div>
+            </div>
+            <div class="social-flex">
+                <a href=""><i class="bx bxl-linkedin-square social__icon"></i></a>
+                <a href=""><i class="bx bxl-github social__icon'"></i></a>
+                <a href=""><i class="bx bxl-instagram social__icon"></i></a>
+                <a href=""><i class="bx bxl-twitter social__icon"></i></a>
+                <a href=""><i class="bx bxl-telegram social__icon"></i></a>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-horizontal-line"></div>
+            <div class="footer-text">Designed with <i class='bx bxs-heart' style="color:red; font-size: 18px;"></i> By <label style="color:#FFAE00;">Omkar Patil</label></div>
+        </div>
+
     </section>
 </body>
-<script src="three.min.js"></script>
-<script src="vanta.birds.min.js"></script>
+<script src="animation-scripts/three.min.js"></script>
+<script src="animation-scripts/vanta.birds.min.js"></script>
 <script>
-// Function to initialize VANTA.BIRDS with responsive parameters
-function initVanta() {
-    // Get the intro-section element
-    const introSection = document.getElementById("intro-section");
+    // Function to initialize VANTA.BIRDS with responsive parameters
+    function initVanta() {
+        // Get the intro-section element
+        const introSection = document.getElementById("intro-section");
 
-    // Calculate the minHeight and minWidth based on the screen width
-    const minWidth = Math.min(window.innerWidth * 0.5, 180);
-    const minHeight = Math.min(window.innerHeight * 0.5, 380);
+        // Calculate the minHeight and minWidth based on the screen width
+        const minWidth = Math.min(window.innerWidth * 0.5, 180);
+        const minHeight = Math.min(window.innerHeight * 0.5, 380);
 
-    // Initialize VANTA.BIRDS with responsive parameters
-    VANTA.BIRDS({
-        el: introSection,
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: minHeight,
-        minWidth: minWidth,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        backgroundColor: 0xe7edf7
-    });
-}
-
-// Call the function initially
-initVanta();
-
-// Handle window resize to update Vanta.js parameters
-window.addEventListener('resize', initVanta);
-
-
-
-//Javascript code for float in transition of elements on scroll
-
-
-document.addEventListener("DOMContentLoaded", function () {
-    // Function to handle the scroll animation logic
-    function handleScrollAnimation(element) {
-        console.log("handleScrollAnimation called for element:", element.id || element.className);
-      var boundingBox = element.getBoundingClientRect();
-  
-      // If the top of the element is within the viewport
-      if (boundingBox.top <= window.innerHeight && boundingBox.bottom > 0) {
-        // Add a class to trigger the animation
-        element.classList.add("animate-float");
-        console.log("Adding class");
-      } else {
-        // Remove the class when the element is out of view
-        console.log("Removing class");
-        element.classList.remove("animate-float");
-      }
+        // Initialize VANTA.BIRDS with responsive parameters
+        VANTA.BIRDS({
+            el: introSection,
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: minHeight,
+            minWidth: minWidth,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundColor: 0xe7edf7
+        });
     }
-  
-    // Get all elements with a common class (e.g., "animate")
-    var animatedSections = document.querySelectorAll(".animate");
-  
-    // Attach the scroll event listener to each element
-    animatedSections.forEach(function (element) {
-      window.addEventListener("scroll", function () {
-        handleScrollAnimation(element);
-      });
+
+    // Call the function initially
+    initVanta();
+
+    // Handle window resize to update Vanta.js parameters
+    window.addEventListener('resize', initVanta);
+
+
+
+    //Javascript code for float in transition of elements on scroll
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        // Function to handle the scroll animation logic
+        function handleScrollAnimation(element) {
+            console.log("handleScrollAnimation called for element:", element.id || element.className);
+            var boundingBox = element.getBoundingClientRect();
+
+            // If the top of the element is within the viewport
+            if (boundingBox.top <= window.innerHeight && boundingBox.bottom > 0) {
+                // Add a class to trigger the animation
+                element.classList.add("animate-float");
+                console.log("Adding class");
+            } else {
+                // Remove the class when the element is out of view
+                console.log("Removing class");
+                element.classList.remove("animate-float");
+            }
+        }
+
+        // Get all elements with a common class (e.g., "animate")
+        var animatedSections = document.querySelectorAll(".animate");
+
+        // Attach the scroll event listener to each element
+        animatedSections.forEach(function (element) {
+            window.addEventListener("scroll", function () {
+                handleScrollAnimation(element);
+            });
+        });
     });
-  });
-  </script>
+</script>
+
 </html>

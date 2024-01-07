@@ -1,0 +1,110 @@
+.footer-section{
+    padding-top: 40px;
+    padding-bottom: 100px;
+    
+    column-gap: 50px;
+    display: flex;
+    justify-content: center;
+  
+    flex-direction: row;
+    background-color: #00012B;
+    color: white;
+    position: relative;
+
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: 350px;
+    row-gap: 10px;
+}
+.links-flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.links-flex a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS';
+}
+.links-flex a i{
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    
+}
+.contact-flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    color:#C6B9B2;
+    font-family: 'Trebuchet MS';
+}
+
+.social-flex{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    column-gap: 8px;
+}
+.social-flex a i{
+    background-color: white;
+    border:none;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.social-flex a i:hover{
+    transition: 0.3s;
+    background-color: #00012B;
+    color:#FFAE00;
+}
+
+.footer-bottom{
+    position: absolute;
+    top: 100;
+    bottom: 0;
+    left: 80;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.footer-horizontal-line{
+
+    width: 1300px;
+    border: 1px solid wheat;
+    height: 0px;
+    opacity: 0.3;
+    
+}
+.footer-text{
+    font-family: 'Trebuchet MS';
+    font-size: 17px;
+}
+.footer-text i{
+    animation: beat 0.8s ease-in-out infinite;
+}
+
+/*CSS ANIMATIONS*/
+@keyframes beat {
+    0% {
+        transform:scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+
+    100% {
+        transform:scale(1.2);
+
+    }
+    0%{
+        transform: scale(1);
+    }
+}

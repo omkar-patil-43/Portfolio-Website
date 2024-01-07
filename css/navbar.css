@@ -1,0 +1,40 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #800080;
+    /* Purple color on hover */
+}
+
+
+.item {
+    list-style: none;
+    float: inline-start;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 35px;
+}
+
+.item:hover {
+    color: rgb(87, 87, 191);
+}
